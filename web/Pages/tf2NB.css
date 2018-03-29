@@ -1,0 +1,469 @@
+
+body{
+margin:0;
+padding:0; 
+background-image:url("../Images/tf2.jpg"); 
+background-repeat: repeat-y;
+background-position: 50% 0;
+background-size:cover;
+background-attachment: fixed;  	
+}
+
+.glavnidiv{
+margin:20px auto 80px ;
+padding:0;	
+width:1200px;
+height:2200px; 
+} 
+#glavnidiv2{
+margin:0 auto 80px ;
+padding:0;	
+width:1200px;
+height:2400px;
+
+background-color:rgba(232, 232, 232,0.3);
+display:none;
+/*display:block;*/
+}
+.levi{
+ margin-top:0; 
+width:310px;
+height:610px;	
+background-color:rgba(232, 232, 232,0.4);
+float:left;
+}
+
+.desni{	
+margin-top:0;
+width:310px;
+height:610px;
+background-color:rgba(232, 232, 232,0.4);
+float:right;	
+}
+#srednji{
+margin-top:0;
+width:580px;
+height:610px;
+background-color:rgba(232, 232, 232,0.3);
+float:left;
+/* display:none;	  */
+}
+.donji{	
+margin:100px;
+width:1000px;
+height:500px;
+background-color:black;
+float:left;
+ z-index: -99;
+}
+#maintable{
+margin-right:140px;
+margin-top:5px;
+display:table;
+float:right;
+}
+table td{
+border:solid #FE9A2E 1px;
+font-family:"Asset";
+font-size:15px;
+background-color:#e6e6e6;
+border-radius:5px;
+} 
+.empty{
+	background-color:rgba(0,0,0,0);
+	border-style:none;
+}
+.naslov{
+width:1200px;
+height:170px;
+background-image:url(../Images/team-fortress.png);
+background-repeat: no-repeat;	
+background-position:center;
+ /* background-color:black;    */
+}
+.slikamenu{
+    width:50px;
+    height:45px;
+    margin-top:2px;
+    padding:0;
+   
+}
+#menu{
+    margin:5px 30px 5px 30px;
+height:54px;
+background-color:#6D3717;
+width:1130px;
+opacity:0.9;
+border-style:solid;
+border-color:#FE9A2E;
+}
+
+#menu ul li ul {
+	background-color:#6D3717;
+	position:absolute;
+	top:240px;
+	width:140px;
+	display: none; /* u startu sakriveno */
+	padding:0;
+        border-style:solid;
+        border-color:#FE9A2E;
+        opacity:0.9px;
+      
+}
+#menu ul li:hover ul {
+    margin:0;
+    padding:0;
+	display: block; /* kada se otvori padajuci */ 
+}
+
+#menu ul li ul li {
+    margin:0;
+    padding:0;
+	float:none;
+}
+
+#menu ul {
+	margin:0;
+      
+	padding-left:85px;
+	padding-right:0px;
+	list-style:none;/*uklanja tacke*/
+        font-family:Comic Sans MS; 
+}
+
+#menu ul li{
+	float:left;
+        height:50px;
+        
+}
+#menu ul li a{
+	padding:10px;
+	height:50px;
+	display:block;
+        font-size:20px;
+}
+#menu ul li a:link,#menu ul li a:visited{
+	text-decoration:none;
+	padding-left:15px;
+	color:white;
+}
+#menu ul li a:hover{
+background-color:orange;
+}
+#menu ul li a:active{
+background:black;
+}
+
+/*#menu{
+margin:0;
+padding:0;
+border-style:solid;
+border-color:#FE9A2E;
+height:50px;
+width:1190px; 
+background-color:gray;
+opacity:0.9;
+}
+#menu ul {
+padding-left:0;
+margin:0;
+list-style:none; uklanja tacke 
+font-size:23px;
+ font-family:Comic Sans MS; 
+}
+#menu ul li{
+float:left;	
+}
+#menu ul li a{
+padding:15px 35px 10px 35px; 
+height:25px;
+display:block;
+}
+#menu ul li a:link,#menu ul li a:visited{
+text-decoration:none;
+padding-left:18px;
+
+color:white;
+}
+#menu ul li a:hover{
+background-color:orange;
+
+}
+#menu ul li a:active{
+background:#151515;
+}
+#menu ul li ul {
+background-color:#000000; 
+display: none;  u startu sakriveno 	
+width:150px;
+left:890px;
+padding:0;
+margin:0;
+}
+#menu ul li:hover > ul {
+display:block;  kada se otvori padajuci  
+position: absolute; 
+ text-align:center; 
+z-index:100;
+opacity:0.9;
+}*/
+
+
+
+#script{
+	margin-top:0;
+	 
+	list-style:none;
+	font-family:"Asset";
+	color:white;
+}
+
+#script ul li a{
+	display:block;
+	/* padding:10px 15px 10px 30px;   */
+}
+
+#liscript{
+    margin-top:5px;
+margin-bottom:5px;
+
+}
+#liscript a:link,#liscript a:visited{
+text-decoration:none;
+/* padding-left:87px; */
+color:#994612;
+}
+#liscript a:active{
+color:#FE9A2E;
+}
+
+#liscriptright{
+margin-bottom:15px;
+
+}
+#liscriptright a:link,#liscriptright a:visited{
+text-decoration:none;
+color:black;
+}
+#liscriptright a:active{
+background:#FE9A2E;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.video-wrapper{
+	width: 540px;
+	float:left;
+	margin-top:20px;
+	padding-top:50px;
+	margin-left:40px;	
+	max-width: 100%;	
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 50px;
+	
+}
+
+#slika{
+	width:295px;
+    
+}
+
+.button{
+background-position:center;
+border-color:orange;
+margin-top:10px;
+}
+
+.desniunutra{
+    width:310px;
+    height:450px;
+    /*background-image:url(Images/blue.png);*/
+    margin-top:-15px;
+    
+}
+.dots li{
+   margin:0;
+   padding-left:50px;
+   text-align:center; 
+   list-style:none;
+   display:inline;
+   
+   position:relative;
+   left:-10px;
+   
+  
+ 
+}
+
+#circle{
+ width: 12px;
+ height: 12px;
+ position: absolute;
+}
+
+.dotdiv{
+ border:solid 1px black;
+ width:310px;
+ height: 20px;
+ text-align: center;
+ float:left;
+margin-top:3px;
+}
+
+.dotdiv ul{
+margin-top:2px;
+ padding: 0px;
+}
+
+.dotdiv ul li{
+ height: 20px;
+ display:inline;
+ margin-left: 25px;
+ margin-right: 25px;
+}
+.leftarrow{
+   float:left;
+   border: 1px solid black;
+   width:30px;
+   height:200px;
+   margin-top:45px;
+ 
+}
+.leftarrow{
+   float:left;
+   border: 1px solid black;
+   width:30px;
+   height:200px;
+   margin-top:65px;
+ 
+}
+.top{
+    width:310px;
+    height:50px;
+    float:left;
+    border: 1px solid black;
+}
+.rightarrow{
+   float:left;
+   border: 1px solid black;
+   width:30px;
+   height:200px;
+   margin-top:65px;
+   float:right;
+ 
+}
+.srednjiunutra{
+   width:230px;
+   height:370px;
+   border: 1px solid black;
+   margin-top:2px;
+   margin-left:6px;
+   margin-right:6px;
+   float:left;
+}
+
+.rights{
+    padding-top:-15px;
+}
+.social{
+    position:absolute;
+   top:0px;
+   right:-120px;
+font-size:36px;
+width:250px;
+height:50px;
+
+}
+.social a:link,.social a:visited{
+color:white;
+text-decoration:none;
+}
+.social a:hover{
+color:orange;
+}
+.social a:active{
+color:black;
+}
+.logo{
+  position:absolute;
+   top:0;
+   left:24px;
+width:250px;
+height:150px;   
+}
+.allrights{
+background-color:#6D3717;
+font-size:26px;
+width:1200px;
+height:30px;
+text-align:center;
+margin:0px;
+}
+.container{
+	width:310px;
+	height:470px;;
+}
+.carousel {
+  height:370px;
+}
+
+.carousel-inner {
+
+  overflow: hidden;
+  width:100%;
+  height:100%;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #ffffff;
+  border-radius: 10%;
+  cursor: pointer;
+  background-color:orange;
+}
+.carousel-indicators .active{
+    background-color:red;
+}
+.item{
+padding-top:90px;
+}
+h2{
+	text-align:center;
+       color:orange;
+       font-family:Comic Sans MS; 
+}
+
+.glyphicon-chevron-left{
+ background-image:url("../Images/left.png");  
+  }
+.glyphicon-chevron-right{
+ background-image:url("../Images/right.png");  
+  }
+  
+  .carousel-control .glyphicon-chevron-left{
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .carousel-control .glyphicon-chevron-right{
+     width: 50px;
+    height: 50px;
+    margin-top: -20px;
+    font-size: 30px;  
+  }
+  .bojaVreme{
+      background-color:red;
+  }
+  

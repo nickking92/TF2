@@ -1,0 +1,351 @@
+ <!DOCTYPE html>  
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Team Fortress 2">
+ <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>  
+    <![endif]-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>      
+<link href='https://fonts.googleapis.com/css?family=Asset' rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../Pages/bootstrap.min.css">
+<link href="../Pages/tf2NB.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="../Pages/bootstrap.min.js"></script>
+
+ 
+</head>
+
+
+
+<body> 
+
+
+
+    <section class="glavnidiv">
+    <header>
+    <div class="naslov">
+
+</div>
+<nav id="menu">
+    
+	<ul>
+          <li><img class="slikamenu" src="../Images/Cursor_BLU.png"></li>  
+	<li><a href="http://www.teamfortress.com/">Home page</a></li>
+	<li><a href="https://wiki.teamfortress.com/wiki/Main_Page">Team fortress 2 wiki</a></li>
+        <li><a href="http://steamcommunity.com/app/440"> Steam Community</a>
+        
+	
+	
+	<ul>
+            
+        <li><a href="http://store.steampowered.com/">Steam </a></li>
+		<li><a href="http://steamcommunity.com/market/">Market</a></li>
+        <li><a href="http://steamcommunity.com/workshop/"> Workshop</a></li>
+		<li><a href="http://store.steampowered.com/about/">About</a></li>      
+        </ul> 
+	</li>
+	<li><a href="https://wiki.teamfortress.com/wiki/Items"> TF2 Items</a></li>
+	<li><a href="http://www.teamfortress.com/comics.php"> TF2 Comics</a></li>
+	<li><a href="https://www.youtube.com/user/teamfortress">Videos</a></li>
+          <li><img class="slikamenu" src="../Images/Cursor_RED.png"></li>
+        
+	
+	</ul>
+    	
+	</nav>
+        </header>
+    <section class="levi">
+	<ul id="script">
+	<script type="text/javascript">
+	
+var ListLeft = ['The best selling game is now <span style="color:#AA4E14;">FREE!</span>','<a href="http://www.teamfortress.com/freetoplay/">Download now</a>',
+'<a href="http://www.teamfortress.com/freetoplay/"><img src="../Images/headline_f2p.png" width="270" height="90"></a>',
+'<a href="http://sourcefilmmaker.com/"><span style="color:white;">Create movies with source film maker!!!</span></a>','<img src="../Images/source.png" width="240" height="50">'];
+for(var i=0;i<ListLeft.length;i++){
+document.write("<li id='liscript'>" + ListLeft[i] + "</li>");
+
+}
+</script>
+</ul>
+
+
+<img src="../Images/engineerjs.png" alt="engineerjs.png" id="slika" />
+<script>
+var trenutnaSlika=0;
+var slike=["../Images/Tf2_scout_icon.png","../Images/Tf2_medic_icon.png","../Images/sniperjs.png","../Images/heavyjs.png","../Images/spyjs.png","../Images/pyrojs.png","../Images/demomanjs.png","../Images/soldierjs.png","../Images/engineerjs.png"];
+
+function izmeni(){
+var slika=document.getElementById("slika");
+slika.src=slike[trenutnaSlika];
+if(trenutnaSlika >= slike.length -1){
+trenutnaSlika=0;
+}else{
+trenutnaSlika++;
+}
+}
+setInterval("izmeni()",4000);
+
+</script>
+
+
+	 
+    </section>
+	<section id="srednji">
+	<img src="../Images/mainSniper.png" alt="" id="slika1" width="600" height="600"/>
+	<script>
+	function content(name){
+	var slika=name + ".png";
+	var img =document.getElementById("slika1");
+	img.src=slika;
+	
+	}
+	</script>
+
+        </section>
+    <section class="desni">
+         <ul id="script">
+	<script>
+	
+var ListRight = ['<a href="http://beta.tf2playerrankings.com/"><span style= color:white;>Top players</span></a>','<a href="http://store.steampowered.com/recommended/morelike/app/440/"><span style="color:white";>Similar Games</span></a>',
+'<a href="https://valvestore.welovefine.com/title/detailView/team-fortress-2.html"><span style="color:white";>Valve Store</span></a>',
+'<a href="https://tf2maps.net/"><span style="color:white;">Map List</span></a>'];
+for(var i=0;i<ListRight.length;i++){
+document.write("<li id='liscriptright'>" + ListRight[i] + "</li>");
+
+}
+</script>
+</ul>  
+        <header>
+ <div class="container">
+  <h2>Maps</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../Images/hightower.jpg" alt="" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="../Images/mapa.jpg" alt="" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="../Images/2fort.png" alt="" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="../Images/gorge.jpg" alt="" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="../Images/2fort.png" alt="" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="../Images/2fort.png" alt="" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="../Images/doublecross.jpg" alt="" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>   
+        </header>
+<!--
+        <section class="desniunutra">
+            <section class="top"><p class="maps">Maps<p></section>
+            <section class="leftarrow"><</section>   
+            <section class="rightarrow">></section>  
+            <article class="srednjiunutra"></article>
+            <section class="dotdiv">
+      
+     <ul>
+    <li>
+     <a href="#">
+      <img src="../Images/dots1.png"  alt="circle" id="circle">
+     </a>  
+    </li>
+    <li>
+     <a href="#">
+      <img src="../Images/dots1.png" alt="circle" id="circle">
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      <img src="../Images/dots1.png" alt="circle" id="circle">
+     </a> 
+    </li>
+   </ul>  
+     </section>
+    </section>
+        -->
+         </section>
+    
+        
+    
+	
+	
+ <table id="maintable" >
+
+
+
+     <tr><td class="cell" onclick="content('../Images/mainMedic')"><img src="../Images/medic.png" alt="" title="medic" height="45" width="45"/></td><td onclick="content('../Images/mainMedic')"><span style="color:#FF7F00;">Medic</span></td>
+<td class="empty">&nbsp;</td>
+<td onclick="content('../Images/mainDemoman')"><img src="../Images/demoman.png" alt="" title="demoman" height="45" width="45"/></td><td onclick="content('../Images/mainDemoman')"><span style="color:#FF7F00;">Demoman</td>
+<td class="empty">&nbsp;</td>
+<td onclick="content('../Images/mainSoldier')"><img src="../Images/soldier.png" alt="" title="soldier" height="45" width="45"/></td><td onclick="content('../Images/mainSoldier')"><span style="color:#FF7F00;">Soldier</td>
+<td class="empty">&nbsp;</td>
+<td onclick="content('../Images/mainScout')"><img src="../Images/scout.png" alt="" title="scout" height="45" width="45"/></td><td onclick="content('../Images/mainScout')"><span style="color:#FF7F00;">Scout</td>
+<td class="empty">&nbsp;</td>
+<td onclick="content('../Images/mainSniper')"><img src="../Images/sniper.png" alt="" title="sniper" height="45" width="45"/></td><td onclick="content('../Images/mainSniper')"><span style="color:#FF7F00;">Sniper</td></tr>
+<td class="empty">&nbsp;</td>
+<tr><td onclick="content('../Images/mainHeavy')"><img src="../Images/heavy.png" alt="" title="Theavy" height="45" width="45"/></td><td onclick="content('../Images/mainHeavy')"><span style="color:#FF7F00;">Heavy</td>
+<td class="empty">&nbsp;</td>
+<td onclick="content('../Images/mainSpy')"><img src="../Images/spy.png" alt="" title="spy" height="45" width="45"/></td><td onclick="content('../Images/mainSpy')"><span style="color:#FF7F00">Spy</td>
+<td class="empty">&nbsp;</td>
+<td onclick="content('../Images/mainEngineer')"><img src="../Images/engineer.png" alt="" title="engineer" height="45" width="45"/></td><td onclick="content('../Images/mainEngineer')"><span style="color:#FF7F00;">Engineer</td>
+<td class="empty">&nbsp;</td>
+<td onclick="content('../Images/mainPyro')"><img src="../Images/pyro.png" alt="" title="pyro" height="45" width="45"/></td><td onclick="content('../Images/mainPyro')"><span style="color:#FF7F00;">Pyro</td>
+<td class="empty">&nbsp;</td>
+<td onclick="content('../Images/mainMark')"><img src="../Images/unknown.png" alt="" title="unknown" height="40" width="45"/></td><td onclick="content('../Images/mainMark')">?????</td></tr>
+
+ </table>
+    
+    
+    <button onclick="hideshow()" class="button">
+         <img  src="../Images/meettheteam.jpg" width="1185" height="120" border="1" >
+     </button>
+    <script>
+        function hideshow() {
+    var div = document.getElementById('glavnidiv2');
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = 'none';
+    }
+ }
+    </script>
+        
+    <section id="glavnidiv2">
+
+     
+
+        <article class="video-wrapper">
+ <div class="video-container">
+		<iframe src="https://www.youtube.com/embed/jHgZh4GV9G0?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+
+
+        </article>
+<article class="video-wrapper">
+ <div class="video-container">
+		<iframe src="https://www.youtube.com/embed/9NZDwZbyDus?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+</article>
+<article class="video-wrapper">
+ <div class="video-container">
+		<iframe src="https://www.youtube.com/embed/WUhOnX8qt3I?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+
+
+</article>
+<article class="video-wrapper">
+ <div class="video-container">
+				<iframe src="https://www.youtube.com/embed/han3AfjH210?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+</article>
+<article class="video-wrapper">
+ <div class="video-container">
+		<iframe src="https://www.youtube.com/embed/SNgNBsCI4EA?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+
+
+</article>
+<article class="video-wrapper">
+ <div class="video-container">
+		<iframe src="https://www.youtube.com/embed/36lSzUMBJnc?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+</article>
+  <article class="video-wrapper">
+ <div class="video-container">
+		<iframe src="https://www.youtube.com/embed/geNMz0J9TEQ?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+
+
+  </article>
+  <article class="video-wrapper">
+ <div class="video-container">
+		<iframe src="https://www.youtube.com/embed/h42d0WHRSck?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+  </article>
+        <article class="video-wrapper">
+ <div class="video-container">
+		<iframe src="https://www.youtube.com/embed/OR4N5OhcY9s
+		?autoplay=0" width="640" height="360" frameborder="0"></iframe>
+		
+	</div>
+        </article>
+        
+    </section>
+    <nav class="social">
+       
+        <span data-toggle="tooltip" title="Like us on facebook" data-placement="bottom"> <a href="https://www.facebook.com/TeamFortress2"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+	<span data-toggle="tooltip" title="Like us on twitter" data-placement="bottom"><a href="https://twitter.com/TeamFortress"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></span>
+	<span data-toggle="tooltip" title="Join discussion" data-placement="bottom"><a href="https://www.reddit.com/r/tf2/"><i class="fa fa-reddit" aria-hidden="true"></i></a></span>
+	
+	</nav>
+    <script>
+$(function(){
+$('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+     <nav class="logo">
+       
+         <img src="../Images/sign.png" alt="sign.png"  >
+	
+	</nav>
+<a href="../Images/Download.png" download="2.jpg"><img src="../Images/Download.png" width="200" /></a>
+     <button type="submit" onclick="window.open('../Images/Download.png')">Download!</button>
+    <footer class="allright">
+<p class="allrights"><span style="color:orange;"> © 2017</span><span style="font-family: 'Times New Roman', Georgia, Serif; color:white;"> Valve Corporation. All rights reserved.</span></p>
+    </footer>
+
+
+
+
+</body>
+
+</html>
